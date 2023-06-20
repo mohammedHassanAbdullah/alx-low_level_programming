@@ -7,6 +7,13 @@
  */
 int main(void)
 {
-	putchar("_putchar\n");
+	char p[] = "_putchar";
+	int index;
+
+	for (index = 0; index <= sizeof(p); index++)
+	{
+		_putchar(p[index]);
+	}
+	-putchar('\n';)
 	return (0);
 }
